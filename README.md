@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/UnlyEd/utils-slack.svg?branch=master)](https://travis-ci.com/UnlyEd/utils-slack)
+
 # Utils Slack
 
 This project is a transversal project, tools to help and improve slack notifications
