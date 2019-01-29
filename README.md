@@ -1,4 +1,4 @@
-# unly-utils-slack
+# Utils Slack
 
 This project is a transversal project, tools to help and improve slack notifications
 
