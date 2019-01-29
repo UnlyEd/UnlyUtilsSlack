@@ -1,17 +1,17 @@
 {
-  "name": "unly-utils-slack",
+  "name": "@unly/utils-slack",
   "version": "1.0.0",
   "description": "Library of tools to help and improve slack notifications",
   "main": "index.js",
   "author": "unlyEd",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/UnlyEd/unly-utils-slack/issues"
+    "url": "https://github.com/UnlyEd/utils-slack/issues"
   },
-  "homepage": "https://github.com/UnlyEd/unly-utils-slack#readme",
+  "homepage": "https://github.com/UnlyEd/utils-slack#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UnlyEd/unly-utils-slack.git"
+    "url": "git+https://github.com/UnlyEd/utils-slack.git"
   },
   "files": [
     "/lib",
