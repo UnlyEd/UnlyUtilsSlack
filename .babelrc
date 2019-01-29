@@ -3,7 +3,7 @@
     [
       "@babel/preset-env",
       {
-        "modules": "commonjs"
+        "modules": false
       }
     ]
   ],
@@ -13,8 +13,5 @@
         "@babel/preset-env"
       ]
     }
-  },
-  "ignore": [
-    "**/*.test.js"
-  ]
+  }
 }

@@ -2,7 +2,19 @@
 
 This project is a transversal project, tools to help and improve slack notifications
 
-Install:
+<!-- toc -->
+
+- [Getting started](#getting-started)
+- [API](#api)
+- [Contributing](#contributing)
+  * [Getting started](#getting-started-1)
+  * [Test](#test)
+  * [Releasing and publishing](#releasing-and-publishing)
+- [License](#license)
+
+<!-- tocstop -->
+
+## Getting started
 
 npm or yarn
 
@@ -16,68 +28,46 @@ Use:
 const logger = require('unly-utils-slack');
 ```
 
-### Library:
 
-#### sendSlackMessage
-post message to slack Api
+## API
 
-| param(s)  |  type  |     |
-| :---------|:------:|:---:|
-| url | string | required |
-| data | object | optionnal|
+[API](./API.md)
 
-> return Promise
+---
 
-#### createSlackAttachment
-[docs](https://api.slack.com/docs/message-attachments#attachment_structure)
+## Contributing
 
-| param(s)  |  type  |     |
-| :---------|:------:|:----:|
-| {color, title, text, fallback, footer, footerIcon, ts} | object | required |
-|  { key: 'string or number' } | object |  optionnal |
+We gladly accept PRs, but please open an issue first so we can discuss it beforehand.
 
-> return attachment
+### Getting started
 
-
-#### createSlackMessage
-[docs](https://api.slack.com/docs/messages/builder)
-
-At least one of the two parameters is required
-
-| param(s)  |  type  |     |
-| :---------|:------:|:----:|
-| attachments | Array \[ objects \] | optionnal |
-|  text | string |  optionnal |
-
-> return a message to send
-
-## Development
-
-### Test
-
-Run once:
 ```
-yarn run test:once
-```
+yarn start # Shortcut - Runs linter + build + tests in concurrent mode (watch mode)
 
-Watch:
-```
+OR run each process separately for finer control
+
+yarn lint
+yarn build
 yarn test
 ```
 
-Coverage:
-```
-yarn run test:coverage
-```
-
-### Lint
+### Test
 
 ```
-yarn run lint
+yarn test # Run all tests, interactive and watch mode
+yarn test:once
+yarn test:coverage
 ```
 
-### Build
+### Releasing and publishing
 
 ```
-yarn run build
+yarn releaseAndPublish # Shortcut - Will prompt for bump version, commit, create git tag, push commit/tag and publish to NPM
+
+yarn release # Will prompt for bump version, commit, create git tag, push commit/tag
+npm publish # Will publish to NPM
 ```
+
+## License
+
+MIT
