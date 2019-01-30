@@ -2,7 +2,7 @@
   "name": "@unly/utils-slack",
   "version": "1.0.0",
   "description": "Library of tools to help and improve slack notifications",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "unlyEd",
   "license": "MIT",
   "bugs": {
