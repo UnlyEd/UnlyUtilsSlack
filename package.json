@@ -1,6 +1,6 @@
 {
   "name": "@unly/utils-slack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library of tools to help and improve slack notifications",
   "main": "lib/index.js",
   "author": "unlyEd",
