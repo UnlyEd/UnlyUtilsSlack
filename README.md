@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.com/UnlyEd/utils-slack.svg?branch=master)](https://travis-ci.com/UnlyEd/utils-slack)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2607f73efd03371599b8/maintainability)](https://codeclimate.com/github/UnlyEd/utils-slack/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2607f73efd03371599b8/test_coverage)](https://codeclimate.com/github/UnlyEd/utils-slack/test_coverage)
 
 # Utils Slack
 
